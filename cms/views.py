@@ -15,3 +15,6 @@ def index(request):
 
 def login(request):
     return render_to_response("login.html",locals())
+def dashboard(request):
+    return render_to_response("dashboard.html",locals())
+                       

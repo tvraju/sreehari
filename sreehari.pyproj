@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="cms\Templates\base.html" />
+    <Content Include="cms\Templates\dashboard.html" />
     <Content Include="cms\Templates\login.html" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Python Tools\Microsoft.PythonTools.Django.targets" />

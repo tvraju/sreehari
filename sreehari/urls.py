@@ -19,7 +19,9 @@ urlpatterns = patterns('',
     #login Screen
     url(r'^login/', views.login, name='login'),
 
+    url(r'^dashboard/', views.dashboard, name='dashboard'),
+
     url(r'^$', views.index, name='index')
 
-    
+
 )
